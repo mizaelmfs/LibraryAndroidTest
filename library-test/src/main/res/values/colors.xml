@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E5E5E5</color>
+    <color name="colorPrimaryDark">#E5E5E5</color>
+    <color name="colorAccent">#00ACEC</color>
+
+    <color name="colorNotification">#FF0000</color>
+    <color name="colorText">#8C8C8C</color>
+    <color name="colorBackground">#E5E5E5</color>
+    <color name="colorBackgroundCard">#F2F2F2</color>
+    <color name="colorBackgroundLineCard">#DADADA</color>
+    <color name="colorBackgroundCardQuestions">#0077A4</color>
+    <color name="colorBackgroundCrop">#80000000</color>
+
+    <color name="colorTitleDark">#0077A4</color>
+    <color name="colorTitleMenu">#757575</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTextToolbar">#6C6C6C</color>
+
+    <color name="colorGrey">#949090</color>
+    <color name="colorLightGrey">#D9D9D9</color>
+    <color name="colorIconGrayLight">#C0C0C0</color>
+
+    <color name="colorHigh">#2EB501</color>
+    <color name="colorMedium">#FFAD0E</color>
+    <color name="colorLow">#FF0000</color>
+
+    <color name="colorTextQuestions">#212525</color>
+    <color name="colorResultIncorrect">#FF3D00</color>
+
+    <color name="despesa">#FF0000</color>
+    <color name="receita">#607890</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_blue_400">#FF29B6F6</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_600">#FF757575</color>
+</resources>

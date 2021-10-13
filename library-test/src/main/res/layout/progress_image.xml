@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/img_image"
+        android:layout_width="@dimen/_75sdp"
+        android:layout_height="@dimen/_75sdp"
+        android:background="@color/colorWhite"
+        android:scaleType="fitXY"
+        android:padding="@dimen/_5sdp"
+        tools:src="@drawable/photo_perfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/circleImageView"
+        app:strokeColor="@color/colorBackground"
+        app:strokeWidth="@dimen/_5sdp" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_circle"
+        android:padding="@dimen/_3sdp"
+        android:translationY="@dimen/_15sdp"
+        app:layout_constraintBottom_toTopOf="@+id/img_image"
+        app:layout_constraintEnd_toEndOf="@+id/img_image"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/img_image"
+        app:layout_constraintTop_toTopOf="@+id/img_image">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_notification"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:background="@drawable/background_circle_edit"
+            android:gravity="center"
+            android:padding="2dp"
+            android:src="@drawable/edit"
+            app:layout_constraintTop_toTopOf="@+id/img_image"
+            app:tint="@color/colorText" />
+    </FrameLayout>
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:visibility="gone"
+        android:progressDrawable="@drawable/progress_circle"
+        app:layout_constraintBottom_toBottomOf="@+id/img_image"
+        app:layout_constraintEnd_toEndOf="@+id/img_image"
+        app:layout_constraintStart_toStartOf="@+id/img_image"
+        app:layout_constraintTop_toTopOf="@+id/img_image" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
